@@ -1,0 +1,26 @@
+* PKGBUILD FOR ROUNDED M+ FONTS
+
+** これはなんですか
+   [[https://sites.google.com/site/roundedmplus/][自家製 Rounded M+]] をArch Linuxおよびその派生ディストリビューションにインストールするためのPKGBUILDです。
+
+   Arch Linuxにおいてはフォントのインストールにパッケージ化が推奨されています。
+
+** つかいかた
+   : git clone git@github.com:boronology/ttf-rounded-mplus.git
+   : cd ttf-rounded-mplus
+   : makepkg
+   : sudo pacman -U *.pkg.tar.xz
+
+   ちなみにフォントのダウンロードサイズは170MB、インストールサイズは350MB程度になります。
+
+   そのためダウンロードと、特に圧縮には非常に時間がかかります。ご注意ください。
+
+** フォントの詳細
+   製作されたMM様による紹介をご覧ください。
+
+   [[https://sites.google.com/site/roundedmplus/sample][サンプル]]
+
+   [[https://sites.google.com/site/roundedmplus/about][フォントについて]]
+
+** フォントのライセンス
+   [[https://sites.google.com/site/roundedmplus/faq#TOC--1][自由なライセンスで提供されています]]
