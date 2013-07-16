@@ -1,9 +1,9 @@
-# Maintainer : boronology
+# Maintainer : boronology <boronology at gmail dot com>
 pkgname=ttf-rounded-mplus
 pkgver=1.056.20130705
 pkgrel=1
 depends=('fontconfig' 'xorg-font-utils')
-pkgdesc="Rounded style gothic fonts based on M+ FONTS"
+pkgdesc="Japanese rounded gothic fonts based on M+ FONTS"
 arch=('any')
 license=('custom')
 url="https://sites.google.com/site/roundedmplus/"
@@ -16,13 +16,18 @@ install=$pkgname.install
 
 package() {
 	cd "$srcdir"
+
+	# install fonts
 	for TTF in `ls | grep ttf`
 	    do
 	    install -Dm644 $TTF "$pkgdir/usr/share/fonts/TTF/$TTF"
 	    done
+
+	# install License
 	for LICENSE in `ls mplus-TESTFLIGHT-056 | grep LICENSE`
 	    do
-	    install -Dm 644 mplus-TESTFLIGHT-056/$LICENSE "$pkgdir/usr/share/licenses/$pkgname/$LICENSE"
+	    install -Dm644 mplus-TESTFLIGHT-056/$LICENSE \
+	    	    "$pkgdir/usr/share/licenses/$pkgname/$LICENSE"
 	    done
 }
 	    
