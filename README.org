@@ -5,7 +5,16 @@
 
    Arch Linuxにおいてはフォントのインストールにパッケージ化が推奨されています。
 
-** つかいかた
+** お手軽な使い方
+   2013/7/16、Arch LinuxのAURにのせました。
+
+   yaourt等を導入していれば
+
+   : yaourt -S ttf-rounded-mplus
+
+   でインストールできます。
+
+** 面倒なつかいかた
    : git clone git@github.com:boronology/ttf-rounded-mplus.git
    : cd ttf-rounded-mplus
    : makepkg
@@ -28,4 +37,6 @@
 ** バージョン
    1.056.20130705に対応しています。
 
-   覚えていれば更新に対応していく所存です。
+   +覚えていれば更新に対応していく所存です。+
+   
+   AURに載せたのでちゃんとメンテしていきます。
