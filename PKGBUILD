@@ -30,8 +30,7 @@ package() {
 	    	    "$pkgdir/usr/share/licenses/$pkgname/$LICENSE"
 	    done
 }
-	    
-md5sums=('SKIP'
-	'SKIP'
-	'SKIP')
 
+md5sums=('c7725e31231bc59ef680a5a1cc38b6ae'
+         '71eb068b194b44bcc8e4b2553d72edbf'
+         'f277278b98e12f059a070223f0672769')
