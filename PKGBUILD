@@ -24,9 +24,9 @@ package() {
 	    done
 
 	# install License
-	for LICENSE in `ls mplus-TESTFLIGHT-058 | grep LICENSE`
+	for LICENSE in `ls mplus-TESTFLIGHT-059 | grep LICENSE`
 	    do
-	    install -Dm644 mplus-TESTFLIGHT-058/$LICENSE \
+	    install -Dm644 mplus-TESTFLIGHT-059/$LICENSE \
 	    	    "$pkgdir/usr/share/licenses/$pkgname/$LICENSE"
 	    done
 }
