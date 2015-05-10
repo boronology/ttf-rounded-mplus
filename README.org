@@ -1,7 +1,7 @@
 * PKGBUILD FOR ROUNDED M+ FONTS
 
 ** これはなんですか
-   [[https://sites.google.com/site/roundedmplus/][自家製 Rounded M+]] をArch Linuxおよびその派生ディストリビューションにインストールするためのPKGBUILDです。
+   [[http://jikasei.me/font/rounded-mplus/][自家製 Rounded M+]] をArch Linuxおよびその派生ディストリビューションにインストールするためのPKGBUILDです。
 
    Arch Linuxにおいてはフォントのインストールにパッケージ化が推奨されています。
 
@@ -27,15 +27,15 @@
 ** フォントの詳細
    製作されたMM様による紹介をご覧ください。
 
-   [[https://sites.google.com/site/roundedmplus/sample][サンプル]]
+   [[http://jikasei.me/font/rounded-mplus/sample.html][サンプル]]
 
-   [[https://sites.google.com/site/roundedmplus/about][フォントについて]]
+   [[http://jikasei.me/font/rounded-mplus/about.html][フォントについて]]
 
 ** フォントのライセンス
-   [[https://sites.google.com/site/roundedmplus/faq#TOC--1][自由なライセンスで提供されています]]
+   [[http://jikasei.me/font/rounded-mplus/license.html][自由なライセンスで提供されています]]
 
 ** バージョン
-   1-058-20140226に対応しています。
+   1-059-20150110に対応しています。
 
    AURに載せたのでちゃんとメンテしていきます。
 
@@ -60,4 +60,7 @@
 
 *** 2015/1/23
     フォントを更新したのにライセンスファイルの場所を直してなかった……
+
+*** 2015/5/10
+    公式サイトURLが変わっていたので変更。
 
