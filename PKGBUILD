@@ -1,7 +1,7 @@
 # Maintainer : boronology <boronology at gmail dot com>
 pkgname=ttf-rounded-mplus
 pkgver=20150529
-pkgrel=1
+pkgrel=2
 depends=('fontconfig' 'xorg-font-utils')
 pkgdesc="Japanese rounded gothic fonts based on M+ FONTS"
 arch=('any')
@@ -17,7 +17,7 @@ package() {
 	cd "$srcdir"
 
 	# install fonts
-	for TTF in `ls *.ttf`
+	for TTF in *.ttf
 	    do
 	    install -Dm644 $TTF "$pkgdir/usr/share/fonts/TTF/$TTF"
 	    done
